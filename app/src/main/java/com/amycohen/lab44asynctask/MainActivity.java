@@ -9,8 +9,7 @@ import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity {
 
-    @BindView(R.id.image)
-    ImageView imageView;
+    @BindView(R.id.image) ImageView imageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +17,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ButterKnife.bind(this);
+
+        ImageDownloadTask getImage = new ImageDownloadTask();
+        getImage.execute("");
+        getImage.
     }
 
 }
