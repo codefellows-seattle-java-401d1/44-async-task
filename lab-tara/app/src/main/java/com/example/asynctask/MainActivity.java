@@ -19,6 +19,6 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         ImageDownloadTask getImage = new ImageDownloadTask(imageView);
-        getImage.execute("http://i.imgur.com/73SL1o7.jpg");
+        getImage.execute("https://i.imgur.com/73SL1o7.jpg");
     }
 }
