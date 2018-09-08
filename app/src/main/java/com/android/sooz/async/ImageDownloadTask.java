@@ -59,7 +59,7 @@ public class ImageDownloadTask extends
     @Override
     protected void onPostExecute(Bitmap bitmap) {
 
-        Log.d("POST EXEDCUTE", "done");
+        Log.d("POST EXECUTE", "done");
 
         if (bitmap != null) {
             image.setImageBitmap(bitmap);
@@ -68,6 +68,6 @@ public class ImageDownloadTask extends
 
     @Override
     protected void onProgressUpdate(Integer... values){
-        Log.d("PROGRESS", "" + values[0];
+        Log.d("PROGRESS", "" + values[0]);
     }
 }
