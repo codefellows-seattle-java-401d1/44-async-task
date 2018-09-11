@@ -18,10 +18,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         ButterKnife.bind(this);
-
-        //see lecture at 4:32 - 33
         ImageDownloadTask getImage = new ImageDownloadTask(image);
         getImage.execute("https://i.imgur.com/pXVsQcG.jpg");
     }
