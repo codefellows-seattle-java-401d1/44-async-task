@@ -1,5 +1,7 @@
 # ![CF](http://i.imgur.com/7v5ASc8.png) List Item Detail Fragment
 
+Images on phone need to upload or show in class. 
+
 ## Resources
 * [Android Async Task](https://developer.android.com/reference/android/os/AsyncTask)
 * [Download Image Tutorial](https://www.androidbegin.com/tutorial/android-download-image-from-url/)
